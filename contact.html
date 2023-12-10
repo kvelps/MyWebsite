@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title> In Design </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <img src="Logo.png" alt="logo">
+              <div class="dropdown">
+                <button class="dropbtn"> <img src="icons8-xbox-menu-64.png" alt="icon"> </button>
+                <div class="dropdown-content">
+                  <a href="index.html">Home</a>
+                  <a href="about.html">About</a>
+                  <a href="contact.html">Contact</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="container">
+          <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Let's meet up for a cup of coffee, or just leave me a message! What ever you're feeling!</p>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="connor-betts-FsHskuXmKxw-unsplash.jpg" style="width:100%">
+            </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="city">City</label>
+                <select id="city" name="city">
+                  <option value="denver">Denver</option>
+                  <option value="littleton">Littleton</option>
+                  <option value="castle rock">Castle Rock</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+        
+    </body>
+
+</html>
